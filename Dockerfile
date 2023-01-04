@@ -8,3 +8,5 @@ RUN yarn global add htpasswd@2.4.4
 ENV LANG=ja_JP.UTF-8
 ENV TZ=Asia/Tokyo
 WORKDIR /app
+COPY . /app
+CMD ["sh", "run.sh"]
