@@ -1,4 +1,4 @@
 yarn install
-npx prisma db push --yes
 npx prisma generate
+npx prisma migrate deploy
 node index.js
