@@ -8,13 +8,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@prisma/client": "5.13.0",
     "cookies": "0.9.1",
     "dayjs": "1.11.10",
+    "dotenv": "^17.4.2",
     "http-auth": "4.2.0",
     "prisma": "5.13.0",
     "pug": "3.0.3"
-},
+  },
   "engines": {
     "node": ">=22"
   }

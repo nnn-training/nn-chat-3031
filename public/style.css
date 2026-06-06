@@ -5,6 +5,10 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif; /* 基本フォント */
     position: relative;
     overflow-x: hidden;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 .cyber-font {
@@ -123,4 +127,8 @@ body {
 
 .bg-glass .text-secondary {
     color: #94a3b8 !important; /* サブテキストは明るいグレーに */
+}
+
+.card {
+  margin-bottom: 1rem !important;
 }
