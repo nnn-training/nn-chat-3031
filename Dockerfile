@@ -14,4 +14,5 @@ ENV TZ=Asia/Tokyo
 
 WORKDIR /app
 COPY . /app
+RUN npx prisma migrate deploy
 CMD ["sh", "run.sh"]
