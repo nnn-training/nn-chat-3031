@@ -4,6 +4,8 @@
   "description": "NNチャット",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "build": "prisma generate",
     "test": "node --test"
   },
   "license": "MIT",
@@ -14,5 +16,8 @@
     "http-auth": "4.2.0",
     "prisma": "5.13.0",
     "pug": "3.0.3"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
