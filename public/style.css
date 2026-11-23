@@ -9,3 +9,18 @@ p.card-text {
   white-space: pre-wrap;
   word-break: break-all;
 }
+body {
+  background-color: #f7fbff;
+  background-image: repeating-linear-gradient(
+
+    135deg,
+
+    transparent 0px,
+
+    transparent 18px,
+
+    rgba(100, 170, 230, 0.12) 18px,
+
+    rgba(100, 170, 230, 0.12) 20px
+  );
+}
